@@ -1,8 +1,29 @@
-# React + Vite
+# Tip Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple tip calculator app built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Calculate tip based on bill amount and service satisfaction.
+- Reset button to clear the inputs and calculations.
+
+## Getting Started
+
+To get a local copy of this project up and running, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/tip-calculator-app.git
+   ```
+2. **Navigate to the project directory:**
+    ```bash
+    cd tip-calculator-app
+    ```
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+2. **Start the development server:**
+    ```bash
+    npm run dev
+    ```
