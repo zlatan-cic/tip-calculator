@@ -1,14 +1,13 @@
+import TipCalculator from "./components/TipCalculator";
 
 function App() {
-
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div className="flex items-center justify-center min-h-screen max-w-xl mx-auto">
+        <TipCalculator />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
